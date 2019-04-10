@@ -1,0 +1,16 @@
+\section{Convoluzione Lineare}
+
+\begin{quote}
+	\emph{In matematica, in particolare nell'analisi funzionale, la convoluzione è un'operazione tra due funzioni di una variabile che consiste nell'integrare il prodotto tra la prima e la seconda traslata di un certo valore. }
+\end{quote}
+\hspace*{\fill} \href{https://it.wikipedia.org/wiki/Convoluzione}{-Wikipedia}. \\
+
+L'operazione di convoluzione tra funzioni continue è definita in tale modo:
+\begin{equation}
+	f \circledast g = \int^{\infty}_{- \infty} f(\tau)g(t-\tau)d\tau = \int^{\infty}_{- \infty} f(t - \tau)g(\tau)d\tau
+\end{equation}
+
+La convoluzione discreta, invece, è definita come:
+\begin{equation}
+	\sum^{\infty}_{m= - \infty} f[m]g[n-m] = \sum^{\infty}_{m= - \infty} f[n-m]g[m] 
+\end{equation}
