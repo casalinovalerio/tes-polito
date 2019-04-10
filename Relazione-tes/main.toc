@@ -1,0 +1,6 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {1}Introduzione}{2}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Obiettivi e traguardi}{2}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Materiale e documentazione disponibile}{2}{section.1.2}% 
+\contentsline {chapter}{\numberline {2}Convoluzione, mutua correlazione e stima del ritardo}{3}{chapter.2}% 
