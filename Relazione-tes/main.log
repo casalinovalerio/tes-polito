@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.10)  10 APR 2019 14:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.10)  10 APR 2019 16:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -695,40 +695,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [3
+[3
 
-]
+]) [4]
 Capitolo 3.
-(chapters/ch03_dft.tex) [4
+(chapters/ch03_dft.tex) [5
 
 ]
 Capitolo 4.
 (chapters/ch04_periodogramma.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
- [5
+ [6
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
  (main.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 62.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 3C1B99B44E74CCB5919DA0AC2CAFC594
-(rerunfilecheck)             After:  A418A86F9DE443E9BB29C8292D5C0637.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 91A8F34121A2AE7B6B7038486A46A32F.
  ) 
 Here is how much of TeX's memory you used:
- 22822 strings out of 427748
- 423444 string characters out of 3150980
- 533199 words of memory out of 3000000
- 26715 multiletter control sequences out of 15000+200000
+ 22824 strings out of 427748
+ 423473 string characters out of 3150980
+ 534199 words of memory out of 3000000
+ 26717 multiletter control sequences out of 15000+200000
  540054 words of font info for 68 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  40i,7n,45p,833b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (6 pages).
+Output written on main.pdf (7 pages).
