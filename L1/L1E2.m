@@ -33,6 +33,7 @@ for i = 0:(l - 1)
 end
 
 z
+cconv(x,y)
 
 % Il risultato coincide conquello della funzione cconv().
 % conv() e cconv() coincidono per un numero di campioni pari a 6.

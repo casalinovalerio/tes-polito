@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.10)  10 APR 2019 16:13
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.4.10)  12 APR 2019 10:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -690,22 +690,39 @@ Capitolo 1.
 
 ]
 Capitolo 2.
-(chapters/ch02_convoluzione_mutcorr_ritardo.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+(chapters/ch02_convoluzione_mutcorr_ritardo.tex [3
+
+]
+File: ./images/cap2/convoluzione_es1.png Graphic file (type bmp)
+<./images/cap2/convoluzione_es1.png>
+ [4]
+File: ./images/cap2/convoluzione_es2.png Graphic file (type bmp)
+<./images/cap2/convoluzione_es2.png>
+File: ./images/cap2/mychannel_impl.png Graphic file (type bmp)
+<./images/cap2/mychannel_impl.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
-[3
-
-]) [4]
+File: ./images/cap2/es3_grafico1.png Graphic file (type bmp)
+<./images/cap2/es3_grafico1.png>
+File: ./images/cap2/es3_grafico2.png Graphic file (type bmp)
+<./images/cap2/es3_grafico2.png>
+[5]
+File: ./images/cap2/es3_grafico3.png Graphic file (type bmp)
+<./images/cap2/es3_grafico3.png>
+File: ./images/cap2/es3_grafico4.png Graphic file (type bmp)
+<./images/cap2/es3_grafico4.png>
+) [6]
 Capitolo 3.
-(chapters/ch03_dft.tex) [5
+(chapters/ch03_dft.tex) [7
 
 ]
 Capitolo 4.
 (chapters/ch04_periodogramma.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
- [6
+ [8
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
@@ -713,15 +730,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 62.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 91A8F34121A2AE7B6B7038486A46A32F.
+(rerunfilecheck)             Checksum: 6704D97FBB91E2B122878B1F7D6A00FA.
  ) 
 Here is how much of TeX's memory you used:
- 22824 strings out of 427748
- 423473 string characters out of 3150980
- 534199 words of memory out of 3000000
- 26717 multiletter control sequences out of 15000+200000
- 540054 words of font info for 68 fonts, out of 3000000 for 9000
+ 22868 strings out of 427748
+ 424607 string characters out of 3150980
+ 535199 words of memory out of 3000000
+ 26752 multiletter control sequences out of 15000+200000
+ 540062 words of font info for 69 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  40i,7n,45p,833b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (7 pages).
+Output written on main.pdf (9 pages).
