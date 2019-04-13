@@ -10,4 +10,6 @@
 \BOOKMARK [1][-]{section.2.3}{Esercizio\0402:\040Convoluzione\040circolare}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.4}{Esercizio\0403:\040Mutua\040correlazione\040e\040stima\040del\040ritardo}{chapter.2}% 11
 \BOOKMARK [0][-]{chapter.3}{LAB2:\040Discrete\040Fourier\040Transform}{}% 12
-\BOOKMARK [0][-]{chapter.4}{LAB3:\040Periodogrammi}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Convoluzione\040e\040sistemi\040LTI}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{Implementazione\040DFT}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{LAB3:\040Periodogrammi}{}% 15

@@ -1,0 +1,33 @@
+%-------------------------------------------------------------------------------
+
+\section{Convoluzione e sistemi LTI}
+La convoluzione tra due segnali è equivalente al loro prodotto nel dominio 
+della frequenza. Possiamo riscrivere la funzione di convoluzione dell'esercizio
+precedente sfruttando questa relazione matematica:
+
+\begin{equation}
+	z(n) = x(n) \circledast y(n) \rightarrow 
+	z(n) = F^{-1}(F[x(n)](f) \cdot F[y(n)](f))	
+\end{equation}
+
+%-------------------------------------------------------------------------------
+
+\section{Implementazione DFT}
+In MATLAB è possibile implementare le DFT e le IDFT come segue:
+
+		
+\begin{equation}
+	x_{out}[k] = \begin{cases} 
+	
+	\frac{1}{N} \sum^{N-1}_{n=0} x_{in}[n] 
+	e^{j 2 \pi k n / N } & k=0,...,N-1 \\ 
+	
+	\sum^{N-1}_{n=0} x_{in}[n] 
+	e^{- j 2 \pi k n / N } & k=0,...,N-1 
+	
+	\end{cases}
+\end{equation}
+
+dove N è la lunghezza del segnale $x_{in}[n]$.
+
+%-------------------------------------------------------------------------------
