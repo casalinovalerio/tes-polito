@@ -48,6 +48,8 @@ dove N è la lunghezza del segnale $x_{in}[n]$.
 \end{figure}	
 \end{minipage}
 
+\pagebreak
+
 Le funzioni implementate in questo modo risultano essere equivalenti alle 
 funzioni di libreria \textit{fft()} e \textit{ifft()} implementate in MATLAB, 
 come si vede in figura \ref{fig:output_L2E2}.
@@ -55,7 +57,7 @@ come si vede in figura \ref{fig:output_L2E2}.
 \begin{figure}[H]
 \centering
 \includegraphics[width=.75\textwidth]{./images/cap3/output_L2E2.png}
-\caption{Implementazione MATLAB DFT.}
+\caption{Output MATLAB Esercizio 2.}
 \label{fig:output_L2E2}
 \end{figure}
 
@@ -82,4 +84,37 @@ segnali:
 	\item $x(t) = cos(2 \pi t)$
 \end{itemize}
 
+%-------------------------------------------------------------------------------
 
+Dato un intervallo di durata $T_0 = 4$ secondi, si procede a campionare i 
+segnali con due diverse frequenze di campionamento $fc = 5 Hz$ e $fc = 20$ 
+Hz e a calcolarne la DFT.
+
+\begin{minipage}[t]{.6\textwidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{./images/cap3/campionamento_iterativo.png}
+	\end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.3\textwidth}
+	\vspace*{1cm}
+	Una volta generate le funzioni in MATLAB mediante l’utilizzo di una variabile 
+	simbolica t è possibile procedere al campionamento iterativo dei segnali, dopo 
+	avere preventivamente allocato dei vettori di dimensione opportuna negli 
+	intervalli relativi a $N_1$ e $N^2$:
+\end{minipage}
+
+\bigskip
+
+Fatto ciò è possibile rappresentare su un graﬁco il modulo delle trasformate 
+di Fourier sei segnali campionati.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{./images/cap3/segnali_campionati.png}
+\end{figure}
+
+E possibile notare come la maggior frequenza di campionamento associata alla 
+parte destra del graﬁco implichi una maggior precisione nel disegno della 
+trasformata di Fourier dei segnali presi in considerazione.
